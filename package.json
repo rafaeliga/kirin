@@ -1,0 +1,29 @@
+{
+    "name": "Myp2",
+    "description": "myp2",
+    "version": "0.0.1",
+    "private": true,
+    "kirin": {
+        "shared": "shared/lib",
+        "idl": "shared/idl",
+        "dependencies": [
+            "kirin-core"
+        ],
+	"platforms": {
+            "ios": {
+                "project": "platforms/ios/Myp2.xcodeproj",
+                "build": "xcodebuild clean build",
+                "build.debug": "xcodebuild -configuration Debug clean build",
+                "build.release": "xcodebuild -configuration Release clean build"
+            },
+            "android": {
+                "project": "platforms/android",
+                "build": "ant clean debug && ant clean release",
+                "build.debug": "ant clean debug",
+                "build.release": "ant clean release"
+            }
+        },
+	"extensions": {
+	}
+    }
+}
