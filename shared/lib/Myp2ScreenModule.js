@@ -36,5 +36,9 @@ MyModule.prototype.itemSelected = function (row) {
     this.screen.displayDetailScreenForRowAndContents(row, items[row % items.length]);
 };
 
+MyModule.prototype.nslog = function () {
+    this.screen.nslog();
+};
+
 module.exports = MyModule;
 

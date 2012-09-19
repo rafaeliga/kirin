@@ -12,6 +12,8 @@
 
 #import "MypDetailViewController.h"
 
+#import "JViewController.h"
+
 @implementation MypAppDelegate
 
 @synthesize window = _window;
@@ -23,8 +25,11 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        MypMasterViewController *masterViewController = [[MypMasterViewController alloc] initWithNibName:@"MypMasterViewController_iPhone" bundle:nil];
-        self.navigationController = [[UINavigationController alloc] initWithRootViewController:masterViewController];
+//        MypMasterViewController *masterViewController = [[MypMasterViewController alloc] initWithNibName:@"JViewController" bundle:nil];
+        
+        JViewController *jviewController = [[JViewController alloc] initWithNibName:@"JViewController" bundle:nil];
+        
+        self.navigationController = [[UINavigationController alloc] initWithRootViewController:jviewController];
         self.window.rootViewController = self.navigationController;
     } else {
         MypMasterViewController *masterViewController = [[MypMasterViewController alloc] initWithNibName:@"MypMasterViewController_iPad" bundle:nil];

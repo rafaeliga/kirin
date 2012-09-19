@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import <KirinKit/KirinKit.h>
-
 #import "IMypMyp2Screen.h"
 
 @class MypDetailViewController;

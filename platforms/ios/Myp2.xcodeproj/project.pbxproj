@@ -29,6 +29,9 @@
 		1AEE8DAB154ECC0B00B8C0D7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AEE8DAA154ECC0B00B8C0D7 /* MobileCoreServices.framework */; };
 		1AEE8DAE154ECC4C00B8C0D7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AEE8DAC154ECC2900B8C0D7 /* CoreLocation.framework */; };
 		1AEE8DBA154EEF8000B8C0D7 /* generated-javascript in Resources */ = {isa = PBXBuildFile; fileRef = 1AEE8DB9154EEF8000B8C0D7 /* generated-javascript */; };
+		6147658F16099D0000EEA30F /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 6147658E16099D0000EEA30F /* test.html */; };
+		614765941609A21900EEA30F /* JViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 614765921609A21900EEA30F /* JViewController.m */; };
+		614765951609A21900EEA30F /* JViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 614765931609A21900EEA30F /* JViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +76,10 @@
 		1AEE8DAA154ECC0B00B8C0D7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		1AEE8DAC154ECC2900B8C0D7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		1AEE8DB9154EEF8000B8C0D7 /* generated-javascript */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "generated-javascript"; sourceTree = "<group>"; };
+		6147658E16099D0000EEA30F /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		614765911609A21900EEA30F /* JViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JViewController.h; sourceTree = "<group>"; };
+		614765921609A21900EEA30F /* JViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JViewController.m; sourceTree = "<group>"; };
+		614765931609A21900EEA30F /* JViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +169,10 @@
 				1AEE8D7E154EC82C00B8C0D7 /* MypDetailViewController_iPhone.xib */,
 				1AEE8D81154EC82C00B8C0D7 /* MypDetailViewController_iPad.xib */,
 				1AEE8D67154EC82C00B8C0D7 /* Supporting Files */,
+				6147658E16099D0000EEA30F /* test.html */,
+				614765911609A21900EEA30F /* JViewController.h */,
+				614765921609A21900EEA30F /* JViewController.m */,
+				614765931609A21900EEA30F /* JViewController.xib */,
 			);
 			path = Myp2;
 			sourceTree = "<group>";
@@ -274,6 +285,8 @@
 				1AEE8D80154EC82C00B8C0D7 /* MypDetailViewController_iPhone.xib in Resources */,
 				1AEE8D83154EC82C00B8C0D7 /* MypDetailViewController_iPad.xib in Resources */,
 				1AEE8DBA154EEF8000B8C0D7 /* generated-javascript in Resources */,
+				6147658F16099D0000EEA30F /* test.html in Resources */,
+				614765951609A21900EEA30F /* JViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +338,7 @@
 				1AEE8D71154EC82C00B8C0D7 /* MypAppDelegate.m in Sources */,
 				1AEE8D74154EC82C00B8C0D7 /* MypMasterViewController.m in Sources */,
 				1AEE8D77154EC82C00B8C0D7 /* MypDetailViewController.m in Sources */,
+				614765941609A21900EEA30F /* JViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

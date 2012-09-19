@@ -13,5 +13,8 @@
 @property (strong, nonatomic) id detailItem;
 
 @property (strong, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+@property (weak, nonatomic) IBOutlet UIWebView *webView;
+
+- (void)nslog;
 
 @end
